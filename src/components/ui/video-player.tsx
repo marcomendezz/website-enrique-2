@@ -125,9 +125,9 @@ export const VideoPlayer = ({ src }: { src: string }) => {
         ref={videoRef}
         className="w-full object-cover"
         onTimeUpdate={handleTimeUpdate}
-        src={src}
+        src={`${src}#t=0.001`}
         onClick={togglePlay}
-        preload="metadata"
+        preload="auto"
         playsInline
       />
 
