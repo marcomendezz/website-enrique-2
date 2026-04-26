@@ -43,9 +43,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} antialiased overflow-x-hidden`}
     >
-      <body className="min-h-[100dvh] bg-background text-foreground">
+      <body className="min-h-[100dvh] bg-background text-foreground overflow-x-hidden w-full">
         <SmoothScroll />
         {children}
       </body>

@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <>
       <Navigation />
-      <main>
+      <main className="overflow-x-hidden w-full">
         <Hero />
         <HeroScroll />
         <VideoScrollSequence />
