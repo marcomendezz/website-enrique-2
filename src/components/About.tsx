@@ -73,16 +73,16 @@ export default function About() {
           Philosophy
         </h3>
 
-        <h2 className="philosophy-text mx-auto text-center font-[family-name:var(--font-playfair)] text-3xl md:text-5xl lg:text-7xl tracking-tighter leading-tight mb-16 max-w-[18ch] text-foreground">
-          Enrique Vazquez is the definitive luxury real estate expert in Los Cabos.
+        <h2 className="philosophy-text mx-auto text-center font-[family-name:var(--font-playfair)] text-3xl md:text-5xl lg:text-7xl tracking-tighter leading-tight mb-16 max-w-[20ch] text-foreground">
+          Top-tier luxury real estate professional in Los Cabos with over $30 million in career sales.
         </h2>
 
-        <p className="philosophy-text mx-auto text-center text-xl md:text-3xl text-muted leading-relaxed font-light mb-16 max-w-[30ch]">
-          Born and raised in Cabo San Lucas, combining deep local knowledge with world-class institutional training.
+        <p className="philosophy-text mx-auto text-center text-xl md:text-3xl text-muted leading-relaxed font-light mb-16 max-w-[35ch]">
+          Born and raised in Cabo San Lucas, offering a unique combination of local expertise and international perspective. Ranked among the TOP 20 Real Estate Agents in Baja California Sur.
         </p>
         
-        <div className="philosophy-text mx-auto text-center text-lg md:text-2xl text-gold/80 leading-relaxed max-w-[40ch] tracking-wide">
-          Navigating beachfront estates, ocean-view penthouses, and premier communities. Your legacy is intentional.
+        <div className="philosophy-text mx-auto text-center text-lg md:text-2xl text-gold/80 leading-relaxed max-w-[45ch] tracking-wide">
+          Holding a double degree in Public Management and International Relations. Navigating complex international transactions and serving a global clientele with strategic precision.
         </div>
       </div>
     </section>

@@ -1,4 +1,4 @@
-import { ArrowUp, Circle, WhatsappLogo, InstagramLogo, YoutubeLogo } from "@phosphor-icons/react/dist/ssr";
+import { ArrowUp, Circle, WhatsappLogo, InstagramLogo, YoutubeLogo, LinkedinLogo, TiktokLogo, FacebookLogo } from "@phosphor-icons/react/dist/ssr";
 import { LocationMap } from "./ui/expand-map";
 
 const quickLinks = [
@@ -99,7 +99,7 @@ export default function Footer() {
             <div className="space-y-4">
               <a href="tel:+526241417513" className="block text-muted text-sm hover:text-gold">+52 (624) 141-7513 (MX)</a>
               <a href="tel:+19165877585" className="block text-muted text-sm hover:text-gold">+1 (916) 587-7585 (US)</a>
-              <a href="mailto:enrique@oceansiderealty.mx" className="block text-muted text-sm hover:text-gold">enrique@oceansiderealty.mx</a>
+              <a href="mailto:enrique@oceansideloscabos.com" className="block text-muted text-sm hover:text-gold">enrique@oceansideloscabos.com</a>
               <p className="text-muted text-sm leading-relaxed mt-4">
                 Paseo del Pescador #2501<br />
                 Plaza Pioneros, Local H-5<br />
@@ -108,7 +108,7 @@ export default function Footer() {
             </div>
             
             {/* Social links */}
-            <div className="flex items-center gap-4 mt-6">
+            <div className="flex items-center gap-4 mt-6 flex-wrap">
               <a
                 href="https://wa.me/526241417513"
                 target="_blank"
@@ -119,18 +119,49 @@ export default function Footer() {
                 <WhatsappLogo size={18} weight="light" />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/themostinterestingincabo"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 border border-gold-dim flex items-center justify-center hover:border-gold hover:text-gold transition-all text-muted rounded-full"
                 aria-label="Instagram"
               >
                 <InstagramLogo size={18} weight="light" />
               </a>
               <a
-                href="#"
+                href="https://www.youtube.com/@enriquevazquezrealestate"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 border border-gold-dim flex items-center justify-center hover:border-gold hover:text-gold transition-all text-muted rounded-full"
                 aria-label="YouTube"
               >
                 <YoutubeLogo size={18} weight="light" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/enrique-vazquez-a7a333228/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 border border-gold-dim flex items-center justify-center hover:border-gold hover:text-gold transition-all text-muted rounded-full"
+                aria-label="LinkedIn"
+              >
+                <LinkedinLogo size={18} weight="light" />
+              </a>
+              <a
+                href="https://www.tiktok.com/@enriquevazquez001"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 border border-gold-dim flex items-center justify-center hover:border-gold hover:text-gold transition-all text-muted rounded-full"
+                aria-label="TikTok"
+              >
+                <TiktokLogo size={18} weight="light" />
+              </a>
+              <a
+                href="https://www.facebook.com/oceansideloscabos/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 border border-gold-dim flex items-center justify-center hover:border-gold hover:text-gold transition-all text-muted rounded-full"
+                aria-label="Facebook"
+              >
+                <FacebookLogo size={18} weight="light" />
               </a>
             </div>
 
